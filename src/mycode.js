@@ -101,7 +101,6 @@ export default function ClickMove({boardWidth}){
         }
         const game = chess;
         console.log(sanTranslat(square, moveFrom, game));
-        console.log(sanTranslat(square, moveFrom, game));
         game.move(sanTranslat(square, moveFrom, game));
         setChess(game);
 
